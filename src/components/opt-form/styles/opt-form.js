@@ -30,7 +30,7 @@ export const Break = styled.div`
 export const Button = styled.button`
   display: flex;
   align-items: center;
-  height: 50px;
+  height: 55px;
   background: #e50914;
   color: white;
   text-transform: uppercase;
