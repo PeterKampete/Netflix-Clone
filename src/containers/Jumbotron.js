@@ -7,7 +7,6 @@ export const JumbotronContainer = () => {
     <Jumbotron.Container>
       {JumboData.map((item) => (
         <Jumbotron key={item.id} direction={item.direction}>
-          {console.log(item.image)}
           <Jumbotron.Title>{item.title}</Jumbotron.Title>
           <Jumbotron.SubTitle>{item.subTitle}</Jumbotron.SubTitle>
           <Jumbotron.Image src={item.image} alt={item.alt} />
