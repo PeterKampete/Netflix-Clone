@@ -1,4 +1,4 @@
-import styled from 'styled-components/macro';
+import styled from "styled-components/macro";
 
 export const Item = styled.div`
   display: flex;
@@ -56,7 +56,6 @@ export const Image = styled.img`
   max-width: 100%;
   height: auto;
 `;
-
 
 export const Container = styled.div`
   @media (max-width: 1000px) {
