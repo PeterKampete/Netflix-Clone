@@ -33,6 +33,10 @@ export const Link = styled.a`
   margin-bottom: 20px;
   font-size: 13px;
   text-decoration: none;
+  cursor: pointer;
+  :hover{
+    color: #656565;
+  }
 `;
 
 export const Title = styled.p`

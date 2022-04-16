@@ -9,7 +9,7 @@ import { FirebaseContext } from "./context/firebase";
 ReactDOM.render(
   <>
     <FirebaseContext.Provider value={{ firebase }}>
-      <GlobalStyles></GlobalStyles>
+      <GlobalStyles />
       <App />
     </FirebaseContext.Provider>
   </>,
