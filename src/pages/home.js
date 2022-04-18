@@ -4,11 +4,12 @@ import { HeaderContainer } from "../containers/header";
 import { FaqsContainer } from "../containers/faqs";
 import { FooterContainer } from "../containers/footer";
 import { JumbotronContainer } from "../containers/Jumbotron";
+import * as ROUTES from "../constants/routes"
 
 const Home = () => {
   return (
     <>
-      <HeaderContainer>
+      <HeaderContainer path={ROUTES.SIGN_IN}>
         <Feature>
           <Feature.Title>Unlimited Action, TV shows and more ...</Feature.Title>
           <Feature.SubTitle>Watch anywhere. Cancel at anytime</Feature.SubTitle>

@@ -35,7 +35,7 @@ const SignIn = () => {
 
   return (
     <>
-      <HeaderContainer>
+      <HeaderContainer text="Sign up" path={ROUTES.SIGN_UP}>
         <Form>
           <Form.Title>Sign In</Form.Title>
           {error && <Form.Errors>{error}</Form.Errors>}
