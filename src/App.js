@@ -7,7 +7,6 @@ import { useAuthListener } from "./hooks";
 
 const App = () => {
   const { user } = useAuthListener();
-  console.log(user);
   return (
     <Router>
       <IsUserRedirect
